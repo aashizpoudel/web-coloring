@@ -1,0 +1,22 @@
+[
+    {
+        "id": "none",
+        "name": "🔇 No Audio",
+        "url": null
+    },
+    {
+        "id": "lofi",
+        "name": "🎵 Lofi Study",
+        "url": "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3"
+    },
+    {
+        "id": "water",
+        "name": "💧 Water Drops",
+        "url": "/audio/water_drop.mp3"
+    },
+    {
+        "id": "bird",
+        "name": "🐦 Birds",
+        "url": "https://cdn.pixabay.com/download/audio/2022/05/09/audio_d4df907d1c.mp3?filename=birds-nature-relax-sounds-110839.mp3"
+    }
+]

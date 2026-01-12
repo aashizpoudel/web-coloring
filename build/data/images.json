@@ -1,0 +1,22 @@
+[
+    {
+        "id": "demo",
+        "src": "/images/demo.png",
+        "name": "Mushroom Garden"
+    },
+    {
+        "id": "mandala",
+        "src": "https://cdn.pixabay.com/photo/2021/11/04/08/56/mandala-6767745_960_720.png",
+        "name": "Simple Mandala"
+    },
+    {
+        "id": "florals",
+        "src": "https://cdn.pixabay.com/photo/2024/03/02/12/58/ai-generated-8608533_960_720.jpg",
+        "name": "Abstract Florals"
+    },
+    {
+        "id": "puppies",
+        "src": "/images/coloring2.png",
+        "name": "Puppies"
+    }
+]

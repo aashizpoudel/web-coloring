@@ -1,0 +1,9 @@
+
+export default {
+  root: 'src',
+  build: {
+    outDir: '../build',
+    emptyOutDir: true,
+  },
+  publicDir: '../public'
+}
