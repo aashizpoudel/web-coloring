@@ -18,5 +18,10 @@
         "id": "puppies",
         "src": "/images/coloring2.png",
         "name": "Puppies"
+    },
+    {
+        "id": "anime",
+        "src": "/images/coloring4.png",
+        "name": "Anime"
     }
 ]

@@ -115,13 +115,13 @@ const renderEditor = (imageSrc, savedDrawingData = null) => {
 
     // Left Sidebar - Tools + Colors with soft shadow
     const leftSidebar = document.createElement('div');
-    leftSidebar.className = "w-72 bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.08)] flex flex-col p-4 z-10 overflow-y-auto";
+    leftSidebar.className = "w-48 lg:w-72 bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.08)] flex flex-col p-4 z-10 overflow-y-auto transition-all duration-300";
 
     // Tools section with brush size
     const toolsSection = document.createElement('div');
     toolsSection.className = "flex flex-col gap-3 pb-4 border-b border-stone-100";
     toolsSection.innerHTML = `
-        <div class="flex items-center gap-2">
+        <div class="flex flex-wrap justify-center gap-2">
             <button class="tool-btn active flex items-center justify-center w-10 h-10 rounded-xl bg-orange-50 hover:bg-orange-100 transition-colors" data-mode="fill" title="Fill">
                 <span class="text-xl">🪣</span>
             </button>
@@ -154,7 +154,7 @@ const renderEditor = (imageSrc, savedDrawingData = null) => {
     paletteSection.innerHTML = `<div class="text-xs text-orange-500 font-bold mb-3">Palette</div>`;
 
     const paletteGrid = document.createElement('div');
-    paletteGrid.className = "grid grid-cols-6 gap-2";
+    paletteGrid.className = "grid grid-cols-3 lg:grid-cols-6 gap-2";
     PALETTE_COLORS.forEach(c => {
         const btn = document.createElement('button');
         btn.className = "color-btn w-8 h-8 rounded-full border-2 border-white shadow-sm transition-all hover:scale-110";
@@ -175,7 +175,7 @@ const renderEditor = (imageSrc, savedDrawingData = null) => {
     skinSection.innerHTML = `<div class="text-xs text-orange-500 font-bold mb-3">Skin tone</div>`;
 
     const skinGrid = document.createElement('div');
-    skinGrid.className = "grid grid-cols-6 gap-2";
+    skinGrid.className = "grid grid-cols-3 lg:grid-cols-6 gap-2";
     SKIN_TONES.forEach(c => {
         const btn = document.createElement('button');
         btn.className = "color-btn w-8 h-8 rounded-full border-2 border-white shadow-sm transition-all hover:scale-110";
@@ -196,7 +196,7 @@ const renderEditor = (imageSrc, savedDrawingData = null) => {
     hairSection.innerHTML = `<div class="text-xs text-orange-500 font-bold mb-3">Hair color</div>`;
 
     const hairGrid = document.createElement('div');
-    hairGrid.className = "grid grid-cols-6 gap-2";
+    hairGrid.className = "grid grid-cols-3 lg:grid-cols-6 gap-2";
     HAIR_COLORS.forEach(c => {
         const btn = document.createElement('button');
         btn.className = "color-btn w-8 h-8 rounded-full border-2 border-white shadow-sm transition-all hover:scale-110";
