@@ -1,6 +1,6 @@
 # 🎨 Coloring Book App
 
-A simple and relaxing web-based coloring book application.
+A simple and relaxing web-based coloring book application made with antigravity ide.
 
 ## 🚀 Getting Started
 
